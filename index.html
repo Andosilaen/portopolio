@@ -1,14 +1,13 @@
-<html>
- <head>
-  <title>
-   Resume and Portfolio
-  </title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <style>
-   body {
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume and Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
@@ -63,29 +62,12 @@
             display: flex;
             margin-bottom: 1.5rem;
         }
-        <!--.projects .project img {
+        .projects .project img {
             width: 200px;
             height: 150px;
             margin-right: 1rem;
             border-radius: 8px; 
-        } -->
-		
-		/* Existing styles... */
-
-    .image-container {
-        display: flex; /* Use flexbox to align items in a row */
-        justify-content: space-between; /* Space out the images evenly */
-        flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
-    }
-
-    .image-container img {
-        width: 200px; /* Set a fixed width for the images */
-        height: auto; /* Maintain aspect ratio */
-        margin: 10px; /* Add some space around the images */
-        border-radius: 8px; /* Optional: add rounded corners */
-    }
-	
-	
+        }
         .projects .project .project-info {
             max-width: calc(100% - 220px);
         }
@@ -125,12 +107,18 @@
             background-color: #333;
             color: #fff;
         }
-		
-		  /* Existing styles... */
-
-    
-	
-
+        /* New styles for image gallery */
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap; /* Allow images to wrap to the next line */
+            justify-content: space-between; /* Space images evenly */
+        }
+        .image-gallery img {
+            width: 200px; /* Set a fixed width for images */
+            height: auto; /* Maintain aspect ratio */
+            margin: 10px; /* Add some space around the images */
+            border-radius: 8px; /* Optional: add rounded corners */
+        }
   </style>
  </head>
  <body>
